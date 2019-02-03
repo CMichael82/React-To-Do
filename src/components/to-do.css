@@ -1,0 +1,36 @@
+body {
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: #E6E6E6;
+	border: 5px solid orange;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#addItem,
+h3 {
+	margin-top: 25px;
+}
+
+.addBtn {
+	margin-left: 10px;
+}
+
+ol {
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	list-style-position: inside
+}
+
+li {
+	text-transform: capitalize;
+	margin-top: 15px;
+}
+
+.completed {
+	text-decoration: line-through;
+	text-decoration-color: red;
+}
